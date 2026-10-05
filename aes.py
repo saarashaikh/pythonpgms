@@ -12,6 +12,6 @@ message = input("Enter message: ").encode()
 encrypted = cipher.encrypt(message)
 decrypted = cipher.decrypt(encrypted).decode()
 
-print("\nAES Encryption and Decryption")
+print("\nAES Encryption and Decryption demo")
 print("Encrypted:", encrypted.decode())
 print("Decrypted:", decrypted)
